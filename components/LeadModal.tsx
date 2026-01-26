@@ -26,7 +26,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose }) => {
 
     // Simula um delay de processamento para UX
     setTimeout(() => {
-      window.location.href = "https://chromewebstore.google.com/detail/waspeed-superpoderes-para/balkfdkhbcjjmhndnblgmlmcabnapogp?hl=pt-BR";
+      window.open("https://chromewebstore.google.com/detail/waspeed-superpoderes-para/balkfdkhbcjjmhndnblgmlmcabnapogp?hl=pt-BR", "_blank");
       setIsLoading(false);
     }, 1000);
   };

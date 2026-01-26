@@ -37,8 +37,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenModal }) => {
         behavior: 'smooth',
         block: 'start'
       });
-      // Opcional: Atualizar URL sem pular a página
-      window.history.pushState(null, '', href);
+      // Removed window.history.pushState to avoid SecurityErrors in sandboxed/blob environments
     }
   };
 

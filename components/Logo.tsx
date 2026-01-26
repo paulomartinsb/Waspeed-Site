@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Logo: React.FC<{ className?: string }> = ({ className }) => (
   <img 
-    src="/logo.png" 
+    src="https://waspeed.com.br/wp-content/uploads/2024/11/logotipo.png" 
     alt="WaSpeed Logo" 
     width="399" 
     height="112"

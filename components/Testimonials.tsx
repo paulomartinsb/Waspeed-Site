@@ -20,6 +20,24 @@ export const Testimonials: React.FC = () => {
       role: "Agência de Marketing",
       text: "A estabilidade da plataforma é impressionante. Já testei várias outras ferramentas de disparo em massa, mas a WaSpeed é a única que realmente entrega sem banir o chip.",
       avatar: "https://i.pravatar.cc/150?u=a04258114e29026302d"
+    },
+    {
+      name: "Fernanda Souza",
+      role: "Consultora de Vendas",
+      text: "O WaSpeed revolucionou minha prospecção. Consigo falar com 10x mais leads por dia sem perder a qualidade no atendimento. O retorno sobre o investimento foi imediato.",
+      avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704e"
+    },
+    {
+      name: "Lucas Pereira",
+      role: "Diretor Comercial",
+      text: "A funcionalidade de CRM Kanban é sensacional. Minha equipe visualiza o funil inteiro e sabe exatamente quem priorizar. A organização das vendas melhorou 100%.",
+      avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704f"
+    },
+    {
+      name: "Juliana Costa",
+      role: "Empreendedora Digital",
+      text: "Melhor investimento que fiz para o meu lançamento. O suporte é rápido e a ferramenta não trava. Recomendo de olhos fechados para quem quer escalar!",
+      avatar: "https://i.pravatar.cc/150?u=a042581f4e29026705a"
     }
   ];
 
